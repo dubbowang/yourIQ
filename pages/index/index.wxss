@@ -1,0 +1,109 @@
+/**index.wxss**/
+
+page {
+  height: 100%;
+  background-color: #5B5B5B;
+}
+ 
+.viewshow {
+  display: block;
+}
+
+.viewhide {
+  display: none;
+}
+
+.font_1 {
+  display: block;
+  font-weight: 700;
+  font-size: large;
+  color: #fff;
+  text-align: center;
+}
+
+.font_2 {
+  display: block;
+  font-weight: 900;
+  font-size: x-large;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.font_3 {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fe9060;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.beginBtn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn {
+  background-color: wheat;
+  border: white 2px solid;
+}
+
+.btn_hover {
+  background-color: #d6b981;
+  opacity: 0.7;
+}
+
+.cdown_title {
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  width: 100%;
+  height: 50rpx;
+  background-color: #f9e691;
+}
+
+.cdown_time {
+  width: 100%;
+  height: 1000rpx;
+  background-color: #474747;
+  color: white;
+  font-size: 120px;
+  text-align: center;
+  line-height: 1000rpx;
+}
+
+.game_timer {
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  width: 100%;
+  height: 50rpx;
+  background-color: #f9e691;
+}
+
+.game_view {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #474747;
+  justify-content: center;
+  align-items: center;
+  padding: 100rpx 0rpx;
+}
+
+.number_view {
+  width: 118rpx;
+  height: 118rpx;
+  margin: 10rpx;
+  background-color: white;
+  text-align: center;
+  line-height: 120rpx;
+  border: white 2px solid;
+}
+
+.number_viewcheck {
+  background-color: #efefef;
+  width: 118rpx;
+  height: 118rpx;
+  border: yellowgreen 2px solid;
+} 
